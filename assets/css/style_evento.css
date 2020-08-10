@@ -1,0 +1,75 @@
+body {
+    margin: 0;                                   /* Resetear el body */
+    border: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;       /* Fuente para todo el texto de la página */
+}
+
+body * {
+    margin: 0;             /* Resetear las propiedades de los elementos del body */
+    border: 0;
+    padding: 0;
+}
+
+nav {                     /* Dejar la lista hacia la izquierda y darle una posición fija */
+    text-align: left;
+    position: fixed;
+    width: 100vw;
+    padding: 1rem;
+}
+
+nav a {             /* Links del menú de color blanco y sin estilo */
+color: #fff;       
+    text-decoration: none;
+}
+
+nav li {                    /* Remover estilo de la lista */
+    list-style: none;
+}
+
+nav ul li {                 /* Desplegar elementos li de manera horizontal para barra de navegación */
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+
+}
+
+img {                       /* Imagen ocupa el ancho de su contenedor */
+    width: 100%;
+}
+
+footer {                    /* Alinear contenido del footer y darle tamaño a la fuente */
+    text-align: center;
+    font-size: 20px;
+}
+
+footer i {                  /* Color y margen de los íconos */
+    color: #fff;       
+    margin: 0.8rem;
+}
+
+.content {                  /*Dimensiones del contenedor y como se alinean los elementos dentro de este */
+    width: 40%;
+    margin: 0 auto 4rem;
+    text-align: left;
+    padding-top: 7rem;
+    color: #000f08;
+}
+
+.content * {                /* Aplicar un margen a todos los elementos del contenedor */
+    margin: 0.8rem auto;
+}
+
+.oscuro {
+    background-color: #000f08;
+    color: #fff;
+}
+
+.icono {                    /* Esto para aplicar el ícono SVG */
+    width: 2rem;
+}
+
+.icono svg {
+    fill: #ffffff;
+}
+
